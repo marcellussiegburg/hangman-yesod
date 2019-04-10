@@ -1,0 +1,17 @@
+name:    hangman
+version: "0.1.0"
+
+dependencies:
+- base
+- blaze-markup
+- monad-logger
+- persistent-sqlite
+- random
+- text
+- yesod
+- yesod-static
+
+executables:
+  hangman:
+    main: main.hs
+    source-dirs: app

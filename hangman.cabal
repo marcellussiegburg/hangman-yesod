@@ -1,0 +1,30 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.1.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 05d4561e678b7baf2399cf7d8f83c069bdd476303e79e4aeedc75508ee4d9971
+
+name:           hangman
+version:        0.1.0
+license:        MIT
+license-file:   LICENSE
+build-type:     Simple
+
+executable hangman
+  main-is: main.hs
+  other-modules:
+      Paths_hangman
+  hs-source-dirs:
+      app
+  build-depends:
+      base
+    , blaze-markup
+    , monad-logger
+    , persistent-sqlite
+    , random
+    , text
+    , yesod
+    , yesod-static
+  default-language: Haskell2010
