@@ -1,12 +1,16 @@
+{-# LANGUAGE DerivingStrategies #-}
 {-# Language FlexibleContexts #-}
 {-# Language GADTs #-}
 {-# Language GeneralizedNewtypeDeriving #-}
 {-# Language MultiParamTypeClasses #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# Language QuasiQuotes #-}
+{-# LANGUAGE StandaloneDeriving #-}
 {-# Language TemplateHaskell #-}
 {-# Language TypeFamilies #-}
+{-# LANGUAGE UndecidableInstances #-}
 {-# Language ViewPatterns #-}
+
 import           Control.Applicative ((<$>))
 import           Control.Monad.Logger (runStdoutLoggingT)
 import           Data.Char (toLower, toUpper)
